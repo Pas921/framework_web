@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { ref, defineComponent } from 'vue'
-import Component3 from './components/Component3.vue'
+//import Component3 from './components/Component3.vue'
 
 export default defineComponent({
   name: 'Component2',
@@ -20,10 +20,10 @@ export default defineComponent({
   object: {
 
   },
-
+/*
   components: {
       Component3
-  },
+  },*/
 
   setup: () => {
     const count = ref(0)
